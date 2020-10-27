@@ -2,7 +2,7 @@
 # AWS Provider Settings       #
 #=============================#
 provider "aws" {
-  region  = "${var.region}"
+  region  = "region"
   profile = "${var.profile}"
 }
 
