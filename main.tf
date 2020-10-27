@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"
+}
+
 #
 # Enable VPC flow logs for all traffic.
 #
