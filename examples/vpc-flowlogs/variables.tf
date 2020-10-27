@@ -2,7 +2,7 @@
 # AWS Provider Settings       #
 #=============================#
 provider "aws" {
-  region  = "region"
+  region  = "us-east-1"
   profile = "${var.profile}"
 }
 
